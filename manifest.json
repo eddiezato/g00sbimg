@@ -1,0 +1,17 @@
+{
+  "name": "g00sbimg",
+  "description": "g00gle search by image",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "i16.png",
+    "32": "i32.png",
+    "48": "i48.png"
+  }
+}
